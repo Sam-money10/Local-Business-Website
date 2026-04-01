@@ -1,0 +1,25 @@
+# Netlify Configuration — Entretien Extérieur Élite
+
+[build]
+  # No build step needed — static HTML files
+  publish = "."
+  functions = "netlify/functions"
+
+# Redirect form submissions to the thank-you page
+[[redirects]]
+  from   = "/soumission"
+  to     = "/merci.html"
+  status = 200
+
+# Trigger the SMS function when a Netlify Form is submitted
+[[plugins]]
+  # Note: the quote-notify function is called automatically by Netlify
+  # when a form named "soumission" is submitted, via Netlify's form webhook.
+  # To set this up:
+  # 1. Deploy the site to Netlify
+  # 2. Go to: Site settings → Forms → soumission → Notifications
+  # 3. Add a webhook notification pointing to:
+  #    https://[your-site].netlify.app/.netlify/functions/quote-notify
+
+[functions]
+  node_bundler = "esbuild"
