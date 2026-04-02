@@ -20,15 +20,13 @@ exports.handler = async (event) => {
   try {
     // Parse the form submission payload from Netlify
     const payload = JSON.parse(event.body);
-    const data = payload.payload?.data || {};
+    const data = payload.data || {};
 
     const nom        = data.nom        || '(non fourni)';
     const telephone  = data.telephone  || '(non fourni)';
     const courriel   = data.courriel   || '(non fourni)';
     const adresse    = data.adresse    || '(non fourni)';
     const service    = data.service    || '(non fourni)';
-    const date       = data.date       || '(non précisée)';
-    const notes      = data.notes      || '(aucune)';
 
     // Build the SMS message
     const message = [
@@ -39,8 +37,6 @@ exports.handler = async (event) => {
       `✉️  Courriel: ${courriel}`,
       `📍 Adresse: ${adresse}`,
       `🔧 Service: ${service}`,
-      `📅 Date souhaitée: ${date}`,
-      `💬 Notes: ${notes}`,
     ].join('\n');
 
     // Send SMS via Twilio REST API
