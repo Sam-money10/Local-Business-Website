@@ -2684,3 +2684,51 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   .sp-process-grid { grid-template-columns: 1fr; }
   .sp-reviews-grid { grid-template-columns: 1fr; }
 }
+
+/* ============================================================
+   MOBILE BUTTON FIXES
+   ============================================================ */
+@media (max-width: 480px) {
+  .btn {
+    white-space: normal;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 0.85rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .btn-lg {
+    padding: 14px 24px;
+    font-size: 0.9rem;
+  }
+  .btn-hero-pill {
+    white-space: normal;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 0.9rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .btn-cta-banner {
+    white-space: normal;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 0.9rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sp-hero-content .btn,
+  .sp-hero-content .btn-hero-pill {
+    width: 100%;
+    justify-content: center;
+  }
+  .cta-banner .btn,
+  .cta-banner-section .btn-cta-banner {
+    width: 100%;
+    justify-content: center;
+  }
+}
