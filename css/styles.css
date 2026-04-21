@@ -206,7 +206,7 @@ p  { color: var(--text-muted); }
   flex-shrink: 0;
 }
 .header-logo img {
-  height: 48px;
+  height: 72px;
   width: auto;
 }
 .logo-text {
