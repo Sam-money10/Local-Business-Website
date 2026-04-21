@@ -525,14 +525,17 @@ p  { color: var(--text-muted); }
   align-items: center;
   justify-content: center;
   aspect-ratio: 4 / 3;
-  background-color: #000000;
+  background-color: #1a3a4a;
   border: 1px solid rgba(210,255,40,0.25);
   transition: transform 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
 }
+.svc-card:nth-child(even) {
+  background-color: #348aa7;
+}
 .svc-card:hover {
   transform: scale(1.02);
-  background-color: rgba(10, 10, 10, 0.6);
   box-shadow: 0 24px 56px rgba(210,255,40,0.18);
+  filter: brightness(1.1);
 }
 .svc-card--big, .svc-card--small { grid-column: span 1; }
 
@@ -550,7 +553,7 @@ p  { color: var(--text-muted); }
 .svc-card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(10, 10, 10, 0.55);
+  background: rgba(10, 10, 10, 0.3);
 }
 
 .svc-card-name {
