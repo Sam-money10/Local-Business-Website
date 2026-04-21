@@ -1,20 +1,26 @@
-# Entretien Extérieur Élite — Project Context
+# Drippy's Nettoyage — Project Context
 
 ## Business
-- **Name:** Entretien Extérieur Élite
+- **Name:** Drippy's Nettoyage
+- **Domain:** drippysnettoyage.com
+- **Email:** sam@drippysnettoyage.com
 - **Type:** Home service (exterior cleaning)
 - **Location:** Mirabel, QC — also serves Saint-Jérôme, Blainville, Boisbriand, Saint-Eustache, Sainte-Anne-des-Plaines, Rosemère
 - **Language:** French (100% — never use English on the site)
 - **Services:** Nettoyage de vitres, Lavage sous pression, Lavage doux, Nettoyage de gouttières
 
 ## Design Tokens
-- **Gold (primary/CTA):** `#C9A84C`
-- **Black (background):** `#0a0a0a`
-- **Dark gray (secondary bg):** `#141414`
-- **White (text):** `#FFFFFF`
-- **Light gray (body text):** `#CCCCCC`
+- **Lime (primary/CTA):** `#d2ff28`
+- **Lime dark:** `#b8e020`
+- **Lime light:** `#e8ff6e`
+- **Blue (secondary/headings):** `#348aa7`
+- **Blue dark:** `#2a7090`
+- **Mint (accent):** `#5dd39e`
+- **Background:** `#ffffff`
+- **Background alt:** `#f7f7f7`
+- **Dark sections (footer/testimonials):** `#348aa7` / `#1a3a4a`
 - **Font:** Montserrat (Google Fonts) — bold headings, regular body
-- **Style:** Premium, minimal, dark — signals quality over budget
+- **Style:** Fun, energetic, bright — mascot-driven brand
 
 ## File Structure
 ```
@@ -41,13 +47,10 @@ entretien-exterieur-elite/
 - **No frameworks** — plain HTML/CSS/JS only
 
 ## Placeholders to Replace Before Launch
-- `[TELEPHONE]` — Business phone number (from Twilio)
-- `[COURRIEL]` — Professional email (from Zoho or Google Workspace)
 - `[LIEN_GOOGLE_AVIS]` — Google Business Profile review link
-- Logo: `images/logo.png` — drop the real logo file here
+- Logo: `images/logo.png` — save the Drippy's logo here (lime bg version works since header is lime)
 - Before/after photos in the gallery — replace with real job photos
 - Testimonials — replace placeholder quotes with real Google reviews
-- JSON-LD schema address fields — fill in once domain + address confirmed
 
 ## Environment Variables (Netlify Dashboard → Site Settings → Environment Variables)
 ```
