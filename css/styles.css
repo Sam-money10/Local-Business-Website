@@ -12,6 +12,7 @@
   --gold-light:  #e8ff6e;
   --blue:        #348aa7;
   --blue-dark:   #2a7090;
+  --blue-light:  #62c4dd;
   --mint:        #5dd39e;
 
   /* Light theme */
@@ -54,7 +55,7 @@ ul { list-style: none; }
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-weight: 800;
-  color: var(--blue);
+  color: #0a0a0a;
   text-transform: uppercase;
 }
 h1 { font-size: clamp(2rem, 5vw, 3.4rem); }
@@ -77,7 +78,7 @@ p  { color: var(--text-muted); }
 /* --- Utility --- */
 .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
 .text-center { text-align: center; }
-.text-gold { color: var(--blue); }
+.text-gold { color: var(--blue-light); }
 .divider { width: 48px; height: 3px; background: var(--gold); margin: 0 auto 24px; }
 
 /* --- Buttons --- */
@@ -299,7 +300,7 @@ p  { color: var(--text-muted); }
 }
 .nav-dropdown-menu a svg {
   width: 18px; height: 18px;
-  color: var(--blue);
+  color: var(--blue-light);
   flex-shrink: 0;
 }
 
@@ -405,7 +406,7 @@ p  { color: var(--text-muted); }
   border-radius: var(--radius);
   transition: all 0.2s;
 }
-.mobile-services-menu a:hover { background: var(--black-mid); color: var(--blue); }
+.mobile-services-menu a:hover { background: var(--black-mid); color: var(--blue-light); }
 
 /* ============================================================
    HERO — dark background, text stays white
@@ -494,7 +495,7 @@ p  { color: var(--text-muted); }
   display: block;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--blue-light);
   letter-spacing: 0.1em;
   margin-bottom: 10px;
 }
@@ -693,7 +694,7 @@ p  { color: var(--text-muted); }
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--blue);
+  color: var(--blue-light);
 }
 .why-icon svg { width: 22px; height: 22px; }
 .why-item h3 { font-size: 1rem; margin-bottom: 6px; color: var(--text); }
@@ -827,7 +828,7 @@ p  { color: var(--text-muted); }
 .area-subtitle {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--blue-light);
   letter-spacing: 0.04em;
   margin: 0;
 }
@@ -865,7 +866,7 @@ p  { color: var(--text-muted); }
   text-transform: uppercase;
 }
 .area-chevron {
-  color: var(--blue);
+  color: var(--blue-light);
   font-size: 0.7rem;
 }
 @media (max-width: 768px) {
@@ -1076,7 +1077,7 @@ p  { color: var(--text-muted); }
 .contact-detail-icon svg { width: 20px; height: 20px; }
 .contact-detail strong { display: block; font-size: 0.8rem; color: var(--text-dim); font-weight: 600; margin-bottom: 2px; }
 .contact-detail span { font-size: 0.95rem; font-weight: 600; color: var(--text); }
-.contact-detail a:hover { color: var(--blue); }
+.contact-detail a:hover { color: var(--blue-light); }
 
 .contact-guarantee {
   margin-top: 32px;
@@ -1207,7 +1208,7 @@ p  { color: var(--text-muted); }
 }
 .benefit-item::before {
   content: '✓';
-  color: var(--blue);
+  color: var(--blue-light);
   font-weight: 900;
   flex-shrink: 0;
   margin-top: 2px;
@@ -1259,7 +1260,7 @@ p  { color: var(--text-muted); }
 .value-number {
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--blue);
+  color: var(--blue-light);
   line-height: 1;
   margin-bottom: 8px;
   text-transform: none;
@@ -1310,7 +1311,7 @@ p  { color: var(--text-muted); }
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  color: var(--blue);
+  color: var(--blue-light);
 }
 .service-icon svg { width: 26px; height: 26px; }
 .service-card h3 { font-size: 1.15rem; margin-bottom: 10px; color: var(--text); }
@@ -1318,7 +1319,7 @@ p  { color: var(--text-muted); }
 .service-link {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--blue-light);
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1458,7 +1459,7 @@ p  { color: var(--text-muted); }
 .service-overview-card .service-link {
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--blue-light);
   display: flex;
   align-items: center;
   gap: 4px;
@@ -1500,7 +1501,7 @@ p  { color: var(--text-muted); }
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px;
-  color: var(--blue);
+  color: var(--blue-light);
 }
 .technique-icon svg { width: 28px; height: 28px; }
 .technique-card h3 { font-size: 1.1rem; margin-bottom: 12px; color: var(--text); }
@@ -1694,7 +1695,7 @@ p  { color: var(--text-muted); }
   display: block;
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--blue-light);
   letter-spacing: 0.08em;
   margin-bottom: 10px;
 }
@@ -1809,7 +1810,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .review-read-more {
   background: none;
   border: none;
-  color: var(--blue);
+  color: var(--blue-light);
   font-size: 0.8rem;
   font-weight: 700;
   cursor: pointer;
@@ -1975,7 +1976,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--blue);
+  color: var(--blue-light);
   transition: background 0.2s;
 }
 .service-tile:hover .service-tile-icon { background: rgba(52,138,167,0.2); }
@@ -2093,7 +2094,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--blue);
+  color: var(--blue-light);
   transition: background 0.2s;
 }
 .service-select-tile.selected .service-select-icon { background: rgba(210,255,40,0.2); }
