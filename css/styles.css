@@ -1583,7 +1583,7 @@ p  { color: var(--text-muted); }
   inset: 0;
   background-image: url('../images/logo.png');
   background-repeat: repeat;
-  background-size: 160px;
+  background-size: 88px;
   mix-blend-mode: screen;
   opacity: 0.55;
 }
@@ -2386,7 +2386,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 }
 .sp-process-section .process-eyebrow {
   display: block;
-  color: #62c4dd;
+  color: var(--gold);
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -2403,7 +2403,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .process-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #62c4dd;
+  color: var(--gold);
   margin: 0 0 48px;
   font-style: italic;
 }
@@ -2430,13 +2430,13 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   background-image: url('../images/logo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70%;
-  opacity: 0.35;
+  background-size: 85%;
+  opacity: 0.75;
 }
 .sp-process-card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.3);
 }
 .sp-process-card-content {
   position: relative;
@@ -2450,7 +2450,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-process-badge {
   font-size: 3.5rem;
   font-weight: 900;
-  color: #62c4dd;
+  color: var(--gold);
   line-height: 1;
 }
 .sp-process-name {
