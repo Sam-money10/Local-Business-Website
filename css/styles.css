@@ -1544,7 +1544,7 @@ p  { color: var(--text-muted); }
   display: block;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--blue-light);
+  color: var(--gold);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -1583,7 +1583,7 @@ p  { color: var(--text-muted); }
   inset: 0;
   background-image: url('../images/logo.png');
   background-repeat: repeat;
-  background-size: 88px;
+  background-size: 160px;
   mix-blend-mode: screen;
   opacity: 0.55;
 }
@@ -1613,7 +1613,7 @@ p  { color: var(--text-muted); }
 .process-step-name {
   font-size: clamp(2rem, 3.5vw, 2.8rem);
   font-weight: 900;
-  color: var(--blue-light);
+  color: var(--gold);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   line-height: 1.1;
@@ -1641,7 +1641,7 @@ p  { color: var(--text-muted); }
   border-radius: 50%;
   border: 2px solid rgba(210,255,40,0.4);
   background: transparent;
-  color: var(--blue-light);
+  color: var(--gold);
   cursor: pointer;
   display: flex;
   align-items: center;
