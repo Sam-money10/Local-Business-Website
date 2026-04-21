@@ -529,9 +529,6 @@ p  { color: var(--text-muted); }
   border: 1px solid rgba(210,255,40,0.25);
   transition: transform 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
 }
-.svc-card:nth-child(even) {
-  background-color: #348aa7;
-}
 .svc-card:hover {
   transform: scale(1.02);
   box-shadow: 0 24px 56px rgba(210,255,40,0.18);
@@ -2543,14 +2540,14 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-plans-title {
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: uppercase;
   margin: 0 0 8px;
 }
 .sp-plans-eyebrow {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #d2ff28;
+  color: #62c4dd;
   margin-bottom: 36px;
   display: block;
 }
