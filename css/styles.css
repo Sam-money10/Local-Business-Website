@@ -179,7 +179,7 @@ p  { color: var(--text-muted); }
   height: var(--header-h);
   display: flex;
   align-items: center;
-  background: rgba(42,112,144,0.85);
+  background: rgba(20,20,20,0.80);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: none;
@@ -189,7 +189,7 @@ p  { color: var(--text-muted); }
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 .site-header.scrolled {
-  background: rgba(42,112,144,0.95);
+  background: rgba(20,20,20,0.93);
   box-shadow: 0 6px 32px rgba(0,0,0,0.25);
 }
 .header-inner {
