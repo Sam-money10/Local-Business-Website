@@ -55,7 +55,7 @@ ul { list-style: none; }
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: uppercase;
 }
 h1 { font-size: clamp(2rem, 5vw, 3.4rem); }
@@ -69,7 +69,7 @@ p  { color: var(--text-muted); }
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #0a0a0a;
+  color: #62c4dd;
   margin-bottom: 12px;
 }
 .section-title { margin-bottom: 16px; }
@@ -502,7 +502,7 @@ p  { color: var(--text-muted); }
 .services-big-title {
   font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   letter-spacing: 0.04em;
   margin: 0;
   text-transform: uppercase;
@@ -774,7 +774,7 @@ p  { color: var(--text-muted); }
   max-width: 520px;
 }
 .slide-stars {
-  color: var(--gold);
+  color: var(--blue-light);
   font-size: 1rem;
   letter-spacing: 3px;
   margin-bottom: 32px;
@@ -804,7 +804,7 @@ p  { color: var(--text-muted); }
 .testimonial-author {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #0a0a0a;
+  color: #348aa7;
 }
 
 /* ============================================================
@@ -820,7 +820,7 @@ p  { color: var(--text-muted); }
 .area-title {
   font-size: clamp(2.8rem, 6vw, 4.5rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin: 0 0 14px;
@@ -861,7 +861,7 @@ p  { color: var(--text-muted); }
   border-bottom: 1px solid rgba(0,0,0,0.1);
   font-size: 1.15rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #348aa7;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -996,7 +996,7 @@ p  { color: var(--text-muted); }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--blue-light);
   margin-bottom: 16px;
 }
 .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
@@ -1544,7 +1544,7 @@ p  { color: var(--text-muted); }
   display: block;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--gold);
+  color: var(--blue-light);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -1613,7 +1613,7 @@ p  { color: var(--text-muted); }
 .process-step-name {
   font-size: clamp(2rem, 3.5vw, 2.8rem);
   font-weight: 900;
-  color: var(--gold);
+  color: var(--blue-light);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   line-height: 1.1;
@@ -1641,7 +1641,7 @@ p  { color: var(--text-muted); }
   border-radius: 50%;
   border: 2px solid rgba(210,255,40,0.4);
   background: transparent;
-  color: var(--gold);
+  color: var(--blue-light);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1702,7 +1702,7 @@ p  { color: var(--text-muted); }
 .reviews-big-title {
   font-size: clamp(2.2rem, 5vw, 3.6rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin: 0 0 40px;
@@ -2007,7 +2007,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .form-step.active { display: block; }
 .multistep-title {
   font-size: clamp(1.4rem, 3vw, 2rem);
-  color: #0a0a0a;
+  color: #348aa7;
   text-align: center;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -2225,7 +2225,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-detail-content h2 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: none;
   margin: 0 0 20px;
   line-height: 1.25;
@@ -2239,7 +2239,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-detail-content h3 {
   font-size: 1.1rem;
   font-weight: 800;
-  color: #0a0a0a;
+  color: #348aa7;
   text-transform: none;
   margin: 32px 0 12px;
 }
@@ -2266,13 +2266,13 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   background: #d2ff28;
 }
 .sp-detail-content ul li strong {
-  color: #0a0a0a;
+  color: #348aa7;
   font-weight: 700;
 }
 .sp-detail-content p.sp-detail-subtitle {
   font-size: 1.6rem !important;
   font-weight: 800;
-  color: #0a0a0a !important;
+  color: #348aa7 !important;
   margin: 24px 0 24px;
   line-height: 1.4;
 }
@@ -2297,11 +2297,11 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   position: absolute;
   left: 0;
   font-weight: 700;
-  color: #0a0a0a;
+  color: #348aa7;
   font-size: 1rem;
 }
 .sp-detail-content ol.sp-numbered-list > li strong {
-  color: #0a0a0a;
+  color: #348aa7;
   font-weight: 700;
 }
 
@@ -2319,7 +2319,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   content: '—';
   position: absolute;
   left: 0;
-  color: #d2ff28;
+  color: #62c4dd;
   font-weight: 700;
   background: none;
   width: auto;
@@ -2335,7 +2335,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   padding-top: 24px;
   border-top: 1px solid rgba(0,0,0,0.1);
 }
-.sp-detail-cta strong { color: #0a0a0a; }
+.sp-detail-cta strong { color: #348aa7; }
 
 /* Sidebar */
 .sp-sidebar {
@@ -2361,7 +2361,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-sidebar-link:last-child { border-bottom: none; }
 .sp-sidebar-link:hover { background: #f0f0f0; color: #0a0a0a; }
 .sp-sidebar-link--active {
-  color: #d2ff28;
+  color: #62c4dd;
   font-weight: 800;
   background: #fff;
   cursor: default;
@@ -2373,7 +2373,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 }
 .sp-sidebar-link--active::before {
   content: '●';
-  color: #d2ff28;
+  color: #62c4dd;
   margin-right: 8px;
   font-size: 0.6rem;
 }
@@ -2386,7 +2386,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 }
 .sp-process-section .process-eyebrow {
   display: block;
-  color: #d2ff28;
+  color: #62c4dd;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -2403,7 +2403,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .process-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #d2ff28;
+  color: #62c4dd;
   margin: 0 0 48px;
   font-style: italic;
 }
@@ -2450,7 +2450,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-process-badge {
   font-size: 3.5rem;
   font-weight: 900;
-  color: #d2ff28;
+  color: #62c4dd;
   line-height: 1;
 }
 .sp-process-name {
@@ -2470,13 +2470,13 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 }
 .sp-reviews-section .reviews-eyebrow {
   display: block;
-  color: #d2ff28;
+  color: #62c4dd;
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 6px;
 }
 .sp-reviews-section .reviews-big-title {
-  color: #0a0a0a;
+  color: #348aa7;
   margin: 0 0 48px;
 }
 .sp-reviews-grid {
@@ -2517,10 +2517,10 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-review-name {
   font-weight: 700;
   font-size: 0.95rem;
-  color: #0a0a0a;
+  color: #348aa7;
 }
 .sp-review-stars {
-  color: #d2ff28;
+  color: #62c4dd;
   font-size: 0.85rem;
   margin-top: 2px;
 }
@@ -2574,7 +2574,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-plans-intro-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #0a0a0a;
+  color: #348aa7;
   margin: 0 0 12px;
 }
 .sp-plans-intro-text {
@@ -2584,7 +2584,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   max-width: 780px;
   margin: 0;
 }
-.sp-plans-section .process-title { color: #0a0a0a; }
+.sp-plans-section .process-title { color: #348aa7; }
 .sp-plans-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -2619,7 +2619,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
 .sp-plan-discount {
   font-size: clamp(1.8rem, 3vw, 2.4rem);
   font-weight: 900;
-  color: #0a0a0a;
+  color: #348aa7;
   line-height: 1;
   margin-bottom: 4px;
 }
@@ -2658,7 +2658,7 @@ a.reviews-google-badge:hover { border-color: #1877F2; box-shadow: 0 4px 16px rgb
   height: 22px;
   border-radius: 50%;
   background: rgba(210,255,40,0.12);
-  color: #d2ff28;
+  color: #62c4dd;
   font-size: 0.8rem;
   font-weight: 900;
   display: flex;
