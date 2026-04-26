@@ -486,7 +486,7 @@ p  { color: var(--text-muted); }
    ============================================================ */
 .services-cards-section {
   padding: 80px 24px;
-  background: #000000;
+  background: #1a1a2e;
 }
 .services-cards-header {
   margin-bottom: 48px;
