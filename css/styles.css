@@ -541,9 +541,8 @@ p  { color: var(--text-muted); }
   background-image: url('../images/logo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 55%;
-  mix-blend-mode: screen;
-  opacity: 0.25;
+  background-size: 65%;
+  opacity: 1;
 }
 
 .svc-card-overlay {
