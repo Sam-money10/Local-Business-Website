@@ -47,10 +47,8 @@ entretien-exterieur-elite/
 - **No frameworks** — plain HTML/CSS/JS only
 
 ## Placeholders to Replace Before Launch
-- `[LIEN_GOOGLE_AVIS]` — Google Business Profile review link
 - Logo: `images/logo.png` — save the Drippy's logo here (lime bg version works since header is lime)
 - Before/after photos in the gallery — replace with real job photos
-- Testimonials — replace placeholder quotes with real Google reviews
 
 ## Environment Variables (Netlify Dashboard → Site Settings → Environment Variables)
 ```
