@@ -1983,7 +1983,7 @@ a.reviews-google-badge:hover { border-color: #4285F4; box-shadow: 0 4px 16px rgb
 .service-tile:hover .service-tile-icon { background: rgba(52,138,167,0.2); }
 .service-tile-icon svg { width: 32px; height: 32px; }
 .service-tile-icon-img { width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius-lg); }
-.service-tile-icon--noel { background: #0b1f16; border-radius: 50%; width: 160px; height: 160px; padding: 10px; box-sizing: border-box; }
+.service-tile-icon--noel { background: #c8102e; border-radius: 50%; width: 160px; height: 160px; padding: 10px; box-sizing: border-box; }
 .service-tile-icon--noel .service-tile-icon-img { width: 100%; height: 100%; }
 .service-tile-name {
   font-size: 0.875rem;
@@ -2105,7 +2105,7 @@ a.reviews-google-badge:hover { border-color: #4285F4; box-shadow: 0 4px 16px rgb
 .service-select-icon svg { width: 28px; height: 28px; }
 .service-select-icon-img { width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius); }
 .service-select-tile--noel { grid-column: 1 / -1; }
-.service-select-icon--noel { background: #0b1f16; border-radius: 50%; width: 220px; height: 220px; padding: 12px; box-sizing: border-box; }
+.service-select-icon--noel { background: #c8102e; border-radius: 50%; width: 220px; height: 220px; padding: 12px; box-sizing: border-box; }
 .service-select-icon--noel .service-select-icon-img { width: 100%; height: 100%; }
 .custom-icon {
   display: block;
