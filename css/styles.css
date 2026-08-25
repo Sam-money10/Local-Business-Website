@@ -2737,3 +2737,235 @@ a.reviews-google-badge:hover { border-color: #4285F4; box-shadow: 0 4px 16px rgb
     justify-content: center;
   }
 }
+
+/* ============================================================
+   CHRISTMAS LIGHTS PAGE — festive theme
+   Scoped entirely under body.page-noel so no other page is affected.
+   ============================================================ */
+
+/* Festive color overrides on shared components, this page only */
+body.page-noel .sp-hero-bg {
+  filter: brightness(0.55);
+  background-position: center top;
+}
+body.page-noel .sp-hero-overlay {
+  background: linear-gradient(135deg, rgba(11,30,20,0.6) 0%, rgba(90,10,18,0.28) 100%);
+}
+body.page-noel .sp-detail-content h2,
+body.page-noel .sp-detail-content h3 {
+  color: #0b6e4f;
+}
+body.page-noel .sp-detail-content ul li::before {
+  background: #c8102e;
+}
+body.page-noel .sp-detail-content ul li strong {
+  color: #0b6e4f;
+}
+body.page-noel .noel-icon {
+  vertical-align: -4px;
+  margin-right: 4px;
+}
+body.page-noel .sp-sidebar-link--active {
+  color: #c8102e;
+}
+body.page-noel .sp-sidebar-link--active::before {
+  color: #c8102e;
+}
+body.page-noel .sp-reviews-section .reviews-eyebrow {
+  color: #0b6e4f;
+}
+body.page-noel .sp-reviews-section .reviews-big-title {
+  color: #c8102e;
+}
+body.page-noel .review-card {
+  border-top: 4px solid #c8102e;
+}
+body.page-noel .review-card:nth-child(2n) {
+  border-top-color: #0b6e4f;
+}
+body.page-noel .sp-process-section {
+  background: linear-gradient(160deg, #06110a 0%, #0c1f13 55%, #06110a 100%);
+}
+body.page-noel .sp-process-card-bg {
+  background-image: url('../images/logo-noel.png');
+  background-size: 150%;
+  opacity: 1;
+}
+body.page-noel .sp-process-badge {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: #fff;
+  background: radial-gradient(circle at 35% 30%, #ff6b5b, #c8102e 70%);
+  box-shadow: 0 4px 14px rgba(200,16,46,0.45), inset 0 -4px 8px rgba(0,0,0,0.25);
+}
+body.page-noel .sp-process-card:nth-child(2n) .sp-process-badge {
+  background: radial-gradient(circle at 35% 30%, #35b17c, #0b6e4f 70%);
+  box-shadow: 0 4px 14px rgba(11,110,79,0.45), inset 0 -4px 8px rgba(0,0,0,0.25);
+}
+body.page-noel .cta-banner-section {
+  background: linear-gradient(135deg, #7a0f20 0%, #c8102e 55%, #7a0f20 100%);
+}
+body.page-noel .cta-banner-overlay {
+  background: radial-gradient(ellipse at center top, rgba(11,110,79,0.22) 0%, transparent 65%);
+}
+
+/* Light garland */
+body.page-noel .noel-garland {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 0 20px 28px;
+  z-index: 3;
+}
+body.page-noel .noel-garland::before {
+  content: '';
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 6px;
+  height: 2px;
+  background: rgba(255,255,255,0.28);
+  z-index: -1;
+}
+body.page-noel .noel-garland--onlight::before {
+  background: rgba(0,0,0,0.15);
+}
+body.page-noel .noel-garland--hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 18px;
+  z-index: 1;
+}
+body.page-noel .noel-bulb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 6px var(--c);
+  animation: noelTwinkle 1.8s ease-in-out infinite;
+  animation-delay: var(--d);
+  transform: translateY(6px);
+}
+body.page-noel .noel-bulb:nth-child(3n) { transform: translateY(10px); }
+body.page-noel .noel-bulb:nth-child(4n) { transform: translateY(2px); }
+
+@keyframes noelTwinkle {
+  0%, 100% { opacity: 0.55; box-shadow: 0 0 4px var(--c); }
+  50%      { opacity: 1;    box-shadow: 0 0 14px var(--c), 0 0 26px var(--c); }
+}
+
+/* Falling snow (hero only) */
+body.page-noel .noel-snow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+body.page-noel .noel-flake {
+  position: absolute;
+  top: -8%;
+  color: #ffffff;
+  opacity: 0.85;
+  text-shadow: 0 0 4px rgba(255,255,255,0.6);
+  animation-name: noelFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+body.page-noel .noel-flake::before { content: '❄'; }
+
+@keyframes noelFall {
+  0%   { top: -8%;   transform: translateX(0); }
+  50%  {             transform: translateX(14px); }
+  100% { top: 108%;  transform: translateX(-10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.page-noel .noel-bulb,
+  body.page-noel .noel-flake {
+    animation: none;
+  }
+  body.page-noel .noel-snow { display: none; }
+}
+
+@media (max-width: 640px) {
+  body.page-noel .noel-garland--hero { display: none; }
+  body.page-noel .noel-snow { display: none; }
+}
+
+/* Snow beyond the hero */
+body.page-noel .sp-reviews-section,
+body.page-noel .sp-process-section {
+  position: relative;
+  overflow: hidden;
+}
+body.page-noel .noel-snow--onlight .noel-flake {
+  color: #9fb8d9;
+  opacity: 0.55;
+  text-shadow: none;
+}
+
+/* Festive plaid texture behind the light sections */
+body.page-noel .sp-detail-section,
+body.page-noel .sp-reviews-section,
+body.page-noel .noel-gallery-section {
+  background-color: #fdf6ec;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(200,16,46,0.09) 0px, rgba(200,16,46,0.09) 2px, transparent 2px, transparent 40px),
+    repeating-linear-gradient(90deg, rgba(11,110,79,0.09) 0px, rgba(11,110,79,0.09) 2px, transparent 2px, transparent 40px);
+}
+
+/* Photo gallery */
+body.page-noel .noel-gallery-section {
+  padding: 80px 0;
+}
+body.page-noel .noel-gallery-title {
+  text-align: center;
+  color: #c8102e;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+body.page-noel .noel-gallery-subtitle {
+  text-align: center;
+  color: #0b6e4f;
+  font-weight: 700;
+  margin: 0 0 40px;
+}
+body.page-noel .noel-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+body.page-noel .noel-gallery-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 3px solid #ffffff;
+}
+@media (max-width: 640px) {
+  body.page-noel .noel-gallery-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  body.page-noel .sp-reviews-section .noel-snow,
+  body.page-noel .sp-process-section .noel-snow,
+  body.page-noel .cta-banner-section .noel-snow {
+    display: none;
+  }
+}

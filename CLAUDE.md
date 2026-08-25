@@ -7,7 +7,7 @@
 - **Type:** Home service (exterior cleaning)
 - **Location:** Mirabel, QC — also serves Saint-Jérôme, Blainville, Boisbriand, Saint-Eustache, Sainte-Anne-des-Plaines, Rosemère
 - **Language:** French (100% — never use English on the site)
-- **Services:** Nettoyage de vitres, Lavage sous pression, Lavage doux, Nettoyage de gouttières
+- **Services:** Nettoyage de vitres, Lavage sous pression, Lavage doux, Nettoyage de gouttières, Installation de lumières de Noël
 
 ## Design Tokens
 - **Lime (primary/CTA):** `#d2ff28`
@@ -62,7 +62,7 @@ OWNER_PHONE=              # Your personal cell to receive quote texts (e.g. +151
 1. Sticky Header (logo + nav + phone + CTA button)
 2. Hero (benefit headline + CTA above the fold)
 3. Social Proof Bar (stars + guarantee + location + insured)
-4. Services Overview (4 cards)
+4. Services Overview (5 cards)
 5. How It Works (3 steps)
 6. Before/After Gallery
 7. Why Choose Us (6 benefit blocks)
