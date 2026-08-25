@@ -2777,6 +2777,9 @@ body.page-noel .sp-sidebar-link--active {
 body.page-noel .sp-sidebar-link--active::before {
   color: #c8102e;
 }
+body.page-noel .sp-sidebar-arrow {
+  color: #0b6e4f;
+}
 body.page-noel .sp-reviews-section .reviews-eyebrow {
   color: #0b6e4f;
 }
