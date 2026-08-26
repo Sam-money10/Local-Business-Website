@@ -2872,6 +2872,7 @@ body.page-noel .sp-hero-overlay {
   .noel-hero-content { padding: 0 20px; }
   body.page-noel .sp-hero-title { font-size: 1.7rem; line-height: 1.25; }
   body.page-noel .sp-hero-sub { font-size: 0.95rem; }
+  body.page-noel .sp-hero-bg { background-position: center center; }
 }
 body.page-noel .sp-detail-content h2,
 body.page-noel .sp-detail-content h3 {
@@ -3034,7 +3035,6 @@ body.page-noel .noel-flake::before { content: '❄'; }
 
 @media (max-width: 640px) {
   body.page-noel .noel-garland--hero { display: none; }
-  body.page-noel .noel-snow { display: none; }
 }
 
 /* Snow beyond the hero */
@@ -3095,10 +3095,3 @@ body.page-noel .noel-gallery-grid img {
   body.page-noel .noel-gallery-grid { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 640px) {
-  body.page-noel .sp-reviews-section .noel-snow,
-  body.page-noel .sp-process-section .noel-snow,
-  body.page-noel .cta-banner-section .noel-snow {
-    display: none;
-  }
-}
