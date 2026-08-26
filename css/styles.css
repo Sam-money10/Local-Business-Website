@@ -963,6 +963,81 @@ p  { color: var(--text-muted); }
   box-shadow: 0 8px 24px rgba(210,255,40,0.45);
   transform: translateY(-2px);
 }
+.btn-cta-banner--noel {
+  background: linear-gradient(135deg, #12855f 0%, #0b6e4f 100%);
+  color: #ffffff;
+}
+.btn-cta-banner--noel:hover {
+  background: linear-gradient(135deg, #0b6e4f 0%, #095c41 100%);
+  box-shadow: 0 8px 24px rgba(11,110,79,0.45);
+}
+
+/* ============================================================
+   HOMEPAGE — Christmas lights promo
+   ============================================================ */
+.home-noel-promo {
+  position: relative;
+  overflow: hidden;
+  padding: 72px 24px;
+  text-align: center;
+}
+.home-noel-promo-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  filter: brightness(0.45);
+}
+.home-noel-promo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(11,30,20,0.75) 0%, rgba(90,10,18,0.55) 100%);
+}
+.home-noel-promo-content {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.home-noel-promo-logo {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  margin: 0 auto 8px;
+  display: block;
+}
+.home-noel-promo-eyebrow {
+  color: #e8ff6e;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+.home-noel-promo-title {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.2;
+  text-transform: none;
+  margin: 0 0 14px;
+}
+.home-noel-promo-sub {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+.home-noel-promo-price {
+  display: inline-block;
+  background: rgba(255,255,255,0.14);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0 0 28px;
+}
 
 /* ============================================================
    FOOTER
