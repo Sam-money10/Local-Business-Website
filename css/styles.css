@@ -1014,9 +1014,8 @@ p  { color: var(--text-muted); }
 @media (max-width: 767px) {
   .home-noel-promo { padding: 56px 20px; }
   .home-noel-promo-bg {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #0b1f16;
+    background-size: cover;
+    background-position: center center;
   }
   .home-noel-promo-logo { width: 120px; height: 120px; }
   .home-noel-promo-title { font-size: 1.9rem; line-height: 1.2; }
