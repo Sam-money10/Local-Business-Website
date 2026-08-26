@@ -1011,12 +1011,15 @@ p  { color: var(--text-muted); }
   animation-iteration-count: infinite;
 }
 .home-noel-promo-flake::before { content: '❄'; }
-@media (max-width: 640px) {
+@media (max-width: 767px) {
+  .home-noel-promo { padding: 56px 20px; }
   .home-noel-promo-bg {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #0b1f16;
   }
+  .home-noel-promo-logo { width: 120px; height: 120px; }
+  .home-noel-promo-title { font-size: 1.9rem; line-height: 1.2; }
 }
 .home-noel-promo-content {
   position: relative;
