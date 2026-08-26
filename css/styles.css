@@ -986,13 +986,31 @@ p  { color: var(--text-muted); }
   inset: 0;
   background-size: cover;
   background-position: center top;
-  filter: brightness(0.45);
+  filter: brightness(0.75);
 }
 .home-noel-promo-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(11,30,20,0.75) 0%, rgba(90,10,18,0.55) 100%);
+  background: linear-gradient(135deg, rgba(11,30,20,0.45) 0%, rgba(90,10,18,0.3) 100%);
 }
+.home-noel-promo-snow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+.home-noel-promo-flake {
+  position: absolute;
+  top: -8%;
+  color: #ffffff;
+  opacity: 0.9;
+  text-shadow: 0 0 4px rgba(255,255,255,0.6);
+  animation-name: noelFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.home-noel-promo-flake::before { content: '❄'; }
 .home-noel-promo-content {
   position: relative;
   z-index: 2;
@@ -1030,12 +1048,13 @@ p  { color: var(--text-muted); }
 }
 .home-noel-promo-price {
   display: inline-block;
-  background: rgba(255,255,255,0.14);
+  background: #c8102e;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 0.9rem;
   padding: 10px 20px;
   border-radius: 50px;
+  box-shadow: 0 6px 18px rgba(200,16,46,0.35);
   margin: 0 0 28px;
 }
 
