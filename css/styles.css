@@ -978,14 +978,14 @@ p  { color: var(--text-muted); }
 .home-noel-promo {
   position: relative;
   overflow: hidden;
-  padding: 72px 24px;
+  padding: 100px 24px;
   text-align: center;
 }
 .home-noel-promo-bg {
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   filter: brightness(0.75);
 }
 .home-noel-promo-overlay {
