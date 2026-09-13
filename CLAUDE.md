@@ -81,3 +81,4 @@ OWNER_PHONE=              # Your personal cell to receive quote texts (e.g. +151
 - `/deploy` — Step-by-step guide to deploy the site on Netlify
 - `/add-testimonial` — Add a real client testimonial to the homepage
 - `/update-photo` — Replace a placeholder image with a real photo
+- `/seo` — Audit and fix SEO (image size, titles/descriptions, canonical/OG tags, sitemap)
