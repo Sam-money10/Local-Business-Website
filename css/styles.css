@@ -1059,7 +1059,8 @@ p  { color: var(--text-muted); }
   font-size: 1rem;
   color: rgba(255,255,255,0.88);
   line-height: 1.6;
-  margin: 0 0 16px;
+  margin: 0 auto 16px;
+  text-align: center;
 }
 .home-noel-promo-price {
   display: inline-block;
